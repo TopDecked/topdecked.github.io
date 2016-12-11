@@ -17,7 +17,7 @@
       }
     },
     "versionFirst": "3.10.1",
-    "uniqCompNum": 34,
+    "uniqCompNum": 36,
     "versionPublish": "3.10.1",
     "favicon": "@PROJECT_PATH@/assets/images/topdecked-icon-ios-128x128-31.png",
     "noImageResize": "",
@@ -314,6 +314,32 @@
           "_tags": [
             "Theme"
           ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-z",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#000000",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#ffc107",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "TOPDECK A FRIEND"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
           "_name": "msg-box18",
           "_styles": {
             "H3": {
@@ -485,6 +511,32 @@
           "title1": "READY TO EXPAND YOUR REACH?",
           "text": "Sign up for our early access program - let us help you make larger events and keep the players coming back.",
           "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"index.html#content7-s\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-y",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "@primaryColor",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
         }
       ]
     },
