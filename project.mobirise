@@ -49,7 +49,7 @@
               "font-family": "'Oxygen', sans-serif"
             },
             ".navbar, .dropdown-menu": {
-              "background": "#333"
+              "background": "#333333"
             },
             ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
               "background": "#292929"
@@ -64,7 +64,7 @@
           "_name": "dropdown-menu",
           "_anchor": "dropdown-menu-0",
           "_params": {
-            "bgColor": "#333",
+            "bgColor": "#333333",
             "fontSize": 1,
             "fontName": {
               "name": "Oxygen",
@@ -72,7 +72,7 @@
               "css": "'Oxygen', sans-serif"
             },
             "fontColor": "#ffffff",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": false,
             "showBrand": true,
@@ -129,7 +129,7 @@
             "showMedia": true
           },
           "title1": "Play, Your Way",
-          "text": "Find tournaments and events, register for events directly from your phone. Get pairings and standings at your fingertips.&nbsp;Create and share your decklists. <br><br>The app is free - the game is yours.",
+          "text": "Find tournaments and events, register directly from your phone. Create, share, and submit your decklists. Get pairings and standings alerts. <span style=\"letter-spacing: 0.5px; background-color: inherit;\">The app is free - the game is yours.</span><br>",
           "form": {
             "title": "SUBSCRIBE",
             "action": "beta@topdecked.me",
@@ -200,9 +200,9 @@
           "title1": "Decklist Editor &amp; <br>Cloud sync",
           "text1": "Build and improve your decks wherever you are. Stay backed up, instantly and always.",
           "title2": "Events Search &amp; <br>Registration",
-          "text2": "Search and register for events, all from the convenience of your phone. Submit your decklist directly via the app.",
+          "text2": "Search and register for events - submit your decklist from the convenience of your phone.&nbsp;",
           "title3": "Pairings &amp;<br> Notifications",
-          "text3": "Receive pairings on your phone, notifications when the round timer has expired, and alerts when the next round is about to begin."
+          "text3": "Get pairings on your phone - our alerts make your tournament experience more fun."
         },
         {
           "alias": "unicore/components",
@@ -239,7 +239,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.5",
             "overlayColor": "#151515",
             "showTitle": true,
             "image1": "@PROJECT_PATH@/assets/images/events-search-2000x3202-22.png",
@@ -259,7 +259,7 @@
           "text3": "Submit your deck direcly to the event. <br><br>Update your list as many times as you like,up until the players meeting begins.<br>",
           "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-primary\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
           "title4": "<b>Visual editor</b>",
-          "text4": "Say goodbye to Notepad - o<span style=\"letter-spacing: 0.5px;\">ur visual deck editor let s you to quickly build, import, and edit decks on the go.</span><br><br>Share instantly with your friends and social networks.",
+          "text4": "Say goodbye to Notepad - o<span style=\"letter-spacing: 0.5px;\">ur visual deck editor lets you quickly build, import, and edit decks on the go.</span><br><br>Share instantly with your friends and social networks.",
           "button4": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-primary\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>"
         },
         {
@@ -292,8 +292,8 @@
             "showTitle": true,
             "showText": true
           },
-          "title": "Sign up for the beta",
-          "text": "Sign up to get TopDecked as soon as space in the program is available for new players. It's free.",
+          "title": "Sign up for the Beta",
+          "text": "Invites are sent as space in the program is available for new players. It's free.",
           "form": {
             "action": "beta@topdecked.me",
             "alerts": {
@@ -399,7 +399,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
+            "overlayOpacity": "0.8",
             "overlayColor": "#151515",
             "icon1": "fa-calendar-plus-o",
             "icon2": "fa-users",
@@ -433,7 +433,7 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "parallax": false,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/7.jpg",
             "bgColor": "#4c6972",
