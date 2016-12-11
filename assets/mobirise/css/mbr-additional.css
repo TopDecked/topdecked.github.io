@@ -238,3 +238,29 @@ p {
 #dropdown-menu-6 .navbar-toggler {
   color: #ffffff;
 }
+
+
+#dropdown-menu-10 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-10 .navbar-brand a {
+  font-family: 'Oxygen', sans-serif;
+}
+#dropdown-menu-10 .nav .link,
+#dropdown-menu-10 .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+}
+#dropdown-menu-10 .navbar,
+#dropdown-menu-10 .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-10 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-10 .dropdown-menu a:hover,
+#dropdown-menu-10 .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-10 .navbar-toggler {
+  color: #ffffff;
+}
