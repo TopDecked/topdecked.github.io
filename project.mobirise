@@ -28,7 +28,7 @@
       "settings": {
         "main": true,
         "title": "Get TopDecked",
-        "meta_descr": "MTG Events Search, Registration, Pairings, Decklist Builder",
+        "meta_descr": "An App for MTG Events Search, Registration, Pairings, and Decklist Building",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
