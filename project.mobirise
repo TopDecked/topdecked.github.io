@@ -17,7 +17,7 @@
       }
     },
     "versionFirst": "3.10.1",
-    "uniqCompNum": 33,
+    "uniqCompNum": 34,
     "versionPublish": "3.10.1",
     "favicon": "@PROJECT_PATH@/assets/images/topdecked-icon-ios-128x128-31.png",
     "noImageResize": "",
@@ -144,7 +144,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Get the Beta</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Get the Beta</a>",
           "text1": "We do not spam. We will not share your email.",
           "media": {
             "image": {
@@ -298,7 +298,7 @@
           "form": {
             "action": "beta@topdecked.me",
             "alerts": {
-              "success": "Thank you for signing up for the Beta. Invitations will be sent as space becomes available.Thanks for filling out form!"
+              "success": "Thank you for signing up for the Beta. Invitations will be sent as space becomes available."
             },
             "fields": {
               "email": {
@@ -307,7 +307,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-block btn-warning\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Get the Beta</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-block btn-success\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Get the Beta</a>"
         },
         {
           "alias": "unicore/components",
@@ -341,7 +341,7 @@
             "overlayColor": "#151515"
           },
           "title": "ARE YOU A STORE OR EVENT ORGANIZER?",
-          "text": "We have something \"in store\" for you, too.  Easily and cost-effectively promote your events, and build a happy and healthy community of players."
+          "text": "We have something \"in store\" for you, too.  Easily and cost-effectively promote your events - build happy, healthy, growing community of players."
         },
         {
           "alias": "unicore/components",
@@ -366,7 +366,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#151515"
           },
-          "text": "All original content on this page is © 2012-2016 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2016 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
+          "text": "All original content on this page is © 2012-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2016 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
         },
         {
           "alias": "unicore/components",
@@ -415,9 +415,9 @@
           "title3": "Smart SCHEDULING",
           "text3": "Not sure of the best day or time to hold your event? Don't wonder any longer. Our built-in schedule helper will suggest dates for highest player turnout and lowest nearby competition. Never lose out to another big regional tournament again.",
           "title4": "SPEND MORE TIME RUNNING YOUR STORE",
-          "text4": "Busy on game-day? Spend less time at the cash register and more time running your business. Players can pay directly on-site, and we'll make sure all the paperwork is handled.",
+          "text4": "Busy on game-day? Spend less time at the cash register and more time running your business. Players can pay on-site - we'll make sure all the paperwork is handled.",
           "title5": "BUILT IN ANALYTICS",
-          "text5": "Not sure what your players like to do most? We'll keep track of your best performing events, days of the week, leagues, and more. Just encourage players to use our app, and we'll give you ideas for how to reach out to them more effectively."
+          "text5": "Not sure what your players like to do most? We'll keep track of your best performing events, days of the week, leagues, and more. Just encourage players to use our app, and we'll give you news ideas and new ways to keep them engaged."
         },
         {
           "alias": "unicore/components",
@@ -456,7 +456,7 @@
             "title": "MESSAGE",
             "action": "beta@topdecked.me",
             "alerts": {
-              "success": "Thanks for requesting early access - we will reach out to you shortly."
+              "success": "Thanks for requesting early access. One of our team will reach out to you shortly."
             },
             "fields": {
               "name": {
