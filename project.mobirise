@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TopDecked.ME",
-    "currentPage": "confirm.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -17,7 +17,7 @@
       }
     },
     "versionFirst": "3.10.1",
-    "uniqCompNum": 39,
+    "uniqCompNum": 52,
     "versionPublish": "3.10.1",
     "favicon": "@PROJECT_PATH@/assets/images/topdecked-icon-ios-128x128-31.png",
     "noImageResize": "",
@@ -29,7 +29,7 @@
         "main": true,
         "title": "Get TopDecked",
         "meta_descr": "An App for MTG Events Search, Registration, Pairings, and Decklist Building",
-        "header_custom": "",
+        "header_custom": "<meta property=\"og:image\"              content=\"http://topdecked.me/assets/images/background-2000x1500-60.jpg\" />",
         "footer_custom": "",
         "html_before": ""
       },
@@ -92,29 +92,21 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://topdecked.me\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TopDecked MTG</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header14-5\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#top\">Get the Beta</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#form4-19\">Get the Beta</a></li>"
         },
         {
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header14",
-          "_styles": {
-            "H3": {
-              "color": "#ffffff"
-            },
-            "P": {
-              "font-size": "16px"
-            }
-          },
-          "_anchor": "header14-5",
+          "_name": "header10",
+          "_anchor": "header10-1c",
           "_params": {
             "paddingTop": 2,
-            "paddingBottom": 0,
+            "paddingBottom": "0",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/background-2000x1500-19.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/background-2000x1500-60.jpg",
             "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
@@ -122,40 +114,23 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.45,
+            "overlayOpacity": "0.6",
             "overlayColor": "#151515",
+            "showMedia": true,
             "showTitle": true,
             "showText": true,
-            "showForm": true,
-            "showMedia": true
+            "showButtons": true
           },
-          "title1": "Play, Your Way",
-          "text": "Find tournaments and events, register directly from your phone. Create, share, and submit your decklists. Get pairings and standings alerts. <span style=\"letter-spacing: 0.5px; background-color: inherit;\">The app is free - the game is yours.</span><br>",
-          "form": {
-            "title": "SUBSCRIBE",
-            "action": "/submit.php",
-            "alerts": {
-              "success": "Thank you for signing up for the Beta. Invitations will be sent as space becomes available."
-            },
-            "fields": {
-              "email": {
-                "title": "Email",
-                "customTitle": "your@email.com"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Get the Beta</a>",
-          "text1": "We do not spam. We will not share your email.",
           "media": {
             "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive center-block",
+              "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/phone-1400x1691-92.png",
+              "src": "@PROJECT_PATH@/assets/images/phone-1400x1691-61.png",
               "link": "",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": false,
+              "active": true
             },
             "video": {
               "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
@@ -163,6 +138,46 @@
               "aspectratio": "16:9",
               "autoplay": false,
               "loop": false
+            }
+          },
+          "title": "PLAY, YOUR WAY",
+          "text": "<p>Find tournaments and events, register directly from your phone. Create, share, and submit your decklists. Get pairings and standings alerts.&nbsp;</p><br><br><ul><li><i class=\"icon-check2 mbr-primary-color\"></i>Built by players, for players.</li><li><i class=\"icon-check2 mbr-primary-color\"></i>Free to use, forever.</li></ul>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#form4-19\">Get the Beta<br></a> <a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-success\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#msg-box18-v\">ARE YOU A STORE or T.O.?<br></a>",
+          "_styles": {
+            "H3": {
+              "font-size": "48px"
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box11",
+          "_anchor": "msg-box11-1d",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "We believe in Magic",
+          "text": "We fundamentally believe that players love to play, together, and we want to do everything we can to make sure that Magic players can enjoy the game the way they want it to play. We're doing this by building a community where even the smallest formats can be enjoyed across the world, and by creating an easy way for players to find events, and each other - bridging the gap between stores and the larger community. Our app is changing the way you play, your way.",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
             }
           }
         },
@@ -199,11 +214,11 @@
             "icon3": "fa-bell-o"
           },
           "title1": "Decklist Editor &amp; <br>Cloud sync",
-          "text1": "Build and improve your decks wherever you are. Stay backed up, instantly and always.",
+          "text1": "Build and improve your decks wherever you are. Stay backed up, instantly and always. Never forget an idea.",
           "title2": "Events Search &amp; <br>Registration",
-          "text2": "Search and register for events - submit your decklist from the convenience of your phone.&nbsp;",
+          "text2": "Search and register for events - submit your decklist from the convenience of your phone. Update it until the event starts.",
           "title3": "Pairings &amp;<br> Notifications",
-          "text3": "Get pairings on your phone - our alerts make your tournament experience more fun."
+          "text3": "Get pairings on your phone - our alerts make your tournament experience more relaxing, and more fun."
         },
         {
           "alias": "unicore/components",
@@ -213,7 +228,7 @@
           "_name": "features10",
           "_styles": {
             "H1": {
-              "color": "#e8c547"
+              "color": "#ffffff"
             },
             "STRONG": {
               "color": "#ffffff"
@@ -240,7 +255,7 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.5",
+            "overlayOpacity": "0.7",
             "overlayColor": "#151515",
             "showTitle": true,
             "image1": "@PROJECT_PATH@/assets/images/events-search-2000x3202-22.png",
@@ -268,13 +283,8 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "form5",
-          "_styles": {
-            "P": {
-              "font-size": "18px"
-            }
-          },
-          "_anchor": "form5-d",
+          "_name": "form4",
+          "_anchor": "form4-19",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
@@ -293,47 +303,37 @@
             "showTitle": true,
             "showText": true
           },
-          "title": "Sign up for the Beta",
-          "text": "Invites are sent as space in the program becomes available for new players. It's free.",
+          "title": "Sign up for the beta - for players",
+          "text": "Invites are sent as space in the program becomes available for new players - It's free. <br>If you are a store or tournament organizer. Keep reading.",
           "form": {
             "action": "/submit.php",
             "alerts": {
-              "success": "Thank you for signing up for the Beta. Invitations will be sent as space becomes available."
+              "success": "Thanks for filling out form!"
             },
             "fields": {
+              "name": {
+                "title": "First Name",
+                "customTitle": "First Name"
+              },
+              "lastName": {
+                "title": "Last Name",
+                "customTitle": "Last Name"
+              },
               "email": {
                 "title": "Email",
-                "customTitle": "your@email.com"
+                "customTitle": "Your email address"
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-block btn-success\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Get the Beta</a>"
-        },
-        {
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-z",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#000000",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": "0.3",
-            "overlayColor": "#ffc107",
-            "inverse": false,
-            "counters": true,
-            "facebook": true,
-            "google": true,
-            "twitter": true
-          },
-          "text": "TOPDECK A FRIEND"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-block btn-success\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Get the Beta</a>",
+          "_styles": {
+            "H5": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         },
         {
           "alias": "unicore/components",
@@ -392,7 +392,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#151515"
           },
-          "text": "All original content on this page is © 2012-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2016 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
+          "text": "All original content on this page is © 2012-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2017 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
         },
         {
           "alias": "unicore/components",
@@ -488,22 +488,22 @@
               "name": {
                 "title": "First Name",
                 "visible": true,
-                "customTitle": "Business Name"
+                "customTitle": "Store / Business Name"
               },
               "lastName": {
                 "title": "Last Name",
                 "visible": true,
-                "customTitle": "Address"
+                "customTitle": "Store / Business Address"
               },
               "email": {
                 "title": "Email Address",
                 "visible": true,
-                "customTitle": "Email Address"
+                "customTitle": "Contact Email Address"
               },
               "phone": {
                 "title": "Phone No.",
                 "visible": true,
-                "customTitle": "Phone No."
+                "customTitle": "Contact Phone No."
               }
             }
           },
@@ -536,7 +536,12 @@
             "google": true,
             "twitter": true
           },
-          "text": "SHARE THIS PAGE!"
+          "text": "SHARE THIS PAGE!",
+          "_styles": {
+            ".mbr-header__text": {
+              "text-align": "right"
+            }
+          }
         }
       ]
     },
@@ -701,53 +706,131 @@
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header14-5\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#top\">Get the Beta</a></li>"
         },
         {
-          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Purchase Now</a><a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-default btn-border\">Learn More</a>",
           "alias": "unicore/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header21",
-          "_anchor": "header21-12",
+          "_name": "parallax1",
+          "_anchor": "parallax1-13",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/14.jpg",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/13.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "Thanks for signing up!",
+          "text": "A member of our team will reach out shortly. &nbsp;Did you know that a watched clock makes email arrive sooner?"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "progressBar",
+          "_styles": {
+            "H1": {
+              "color": "#000000"
+            },
+            "H5": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "progressBar-15",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "progress1": "77",
+            "progress2": 50,
+            "progress3": 60,
+            "progress4": 70,
+            "progress5": 70,
+            "progress6": 60,
+            "progress7": 50,
+            "progress8": 40,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/HlarOMLD59A?rel=0&amp;showinfo=0&autoplay=0&loop=0"
             },
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.75,
             "overlayColor": "#151515",
-            "showMedia": false,
+            "showTitle": true,
+            "showProgress1": true,
+            "showProgress2": true,
+            "showProgress3": true,
+            "showProgress4": true,
+            "showProgress5": false,
+            "showProgress6": false,
+            "showProgress7": false,
+            "showProgress8": false
+          },
+          "title": "While you wait, SEE How our developers are spending their time",
+          "title1": "Catching unicorns",
+          "value1": "77%",
+          "value1_style": "width:77%",
+          "title2": "Drawing funny pictures on web pages",
+          "value2": "50%",
+          "value2_style": "width:50%",
+          "title3": "Sending push notifications to sleeping users",
+          "value3": "60%",
+          "value3_style": "width:60%",
+          "title4": "Making excuses",
+          "value4": "70%",
+          "value4_style": "width:70%",
+          "title5": "Photoshop",
+          "value5": "70%",
+          "value5_style": "width:70%",
+          "title6": "Illustrator",
+          "value6": "60%",
+          "value6_style": "width:60%",
+          "title7": "Coreldraw",
+          "value7": "50%",
+          "value7_style": "width:50%",
+          "title8": "Photography",
+          "value8": "40%",
+          "value8_style": "width:40%"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box9",
+          "_anchor": "msg-box9-16",
+          "_params": {
             "showTitle": true,
             "showText": true,
-            "showVideo": false,
-            "VideoUrl": "https://www.youtube.com/watch?v=It3su_r0jsc"
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgColor": "@primaryColor",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showButtons": true
           },
-          "media1": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive",
-              "width": 1400,
-              "src": "@THEME_PATH@/components/_images/3.png"
-            }
-          },
-          "title": "Thank you for signing up for our early access beta program.<br>",
-          "text1": "A member of our team will reach out shortly.",
-          "media2": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img img-responsive",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/1.jpg"
-            }
-          },
-          "text2": "Watch Video"
+          "title": "Ready to go?",
+          "text": "Head back to the main page.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"http://topdecked.me\" data-toolbar=\"-mbrBtnMove\">PREVIOUS PAGE</a>"
         },
         {
           "alias": "unicore/components",

@@ -173,14 +173,14 @@ p {
 #dropdown-menu-0 .navbar-toggler {
   color: #ffffff;
 }
-#header14-5 H3 {
-  color: #ffffff;
+#header10-1c H3 {
+  font-size: 48px;
 }
-#header14-5 P {
-  font-size: 16px;
+#msg-box11-1d H4 {
+  text-align: center;
 }
 #features10-j H1 {
-  color: #e8c547;
+  color: #ffffff;
 }
 #features10-j STRONG {
   color: #ffffff;
@@ -191,8 +191,11 @@ p {
 #features10-j H4 {
   color: #b8d00a;
 }
-#form5-d P {
-  font-size: 18px;
+#form4-19 H5 {
+  color: #ffffff;
+}
+#form4-19 P {
+  color: #ffffff;
 }
 #msg-box18-v H3 {
   font-size: 46px;
@@ -211,6 +214,9 @@ p {
 }
 #header2-r H4 {
   text-align: center;
+}
+#social-buttons1-y .mbr-header__text {
+  text-align: right;
 }
 
 
@@ -263,4 +269,10 @@ p {
 }
 #dropdown-menu-10 .navbar-toggler {
   color: #ffffff;
+}
+#progressBar-15 H1 {
+  color: #000000;
+}
+#progressBar-15 H5 {
+  color: #000000;
 }
