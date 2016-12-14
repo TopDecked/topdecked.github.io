@@ -173,10 +173,13 @@ p {
 #dropdown-menu-0 .navbar-toggler {
   color: #ffffff;
 }
-#header10-1c H3 {
-  font-size: 48px;
+#header8-1h H3 {
+  font-size: 46px;
 }
 #msg-box11-1d H4 {
+  text-align: center;
+}
+#msg-box11-1d SPAN {
   text-align: center;
 }
 #features10-j H1 {
@@ -211,6 +214,12 @@ p {
 }
 #content7-s P {
   color: #ffffff;
+}
+#msg-box11-1i H4 {
+  text-align: center;
+}
+#msg-box11-1i P {
+  text-align: center;
 }
 #header2-r H4 {
   text-align: center;

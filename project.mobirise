@@ -17,7 +17,7 @@
       }
     },
     "versionFirst": "3.10.1",
-    "uniqCompNum": 52,
+    "uniqCompNum": 56,
     "versionPublish": "3.10.1",
     "favicon": "@PROJECT_PATH@/assets/images/topdecked-icon-ios-128x128-31.png",
     "noImageResize": "",
@@ -99,14 +99,14 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "header10",
-          "_anchor": "header10-1c",
+          "_name": "header8",
+          "_anchor": "header8-1h",
           "_params": {
             "paddingTop": 2,
             "paddingBottom": "0",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/background-2000x1500-60.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/background-2000x1500-14.jpg",
             "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
@@ -114,23 +114,26 @@
             },
             "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.6",
+            "overlayOpacity": "0.5",
             "overlayColor": "#151515",
-            "showMedia": true,
             "showTitle": true,
             "showText": true,
-            "showButtons": true
+            "showButtons": true,
+            "showMedia": true
           },
+          "title": "PLAY, YOUR WAY",
+          "text": "Find tournaments and events, register directly from your phone. Create, share, and submit your decklists. Get pairings and standings alerts.<br><br>&nbsp;- Built by players, for players.<br>&nbsp;- Free to use, forever.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#form4-19\">Get the Beta</a> <a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-success\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#msg-box18-v\">Are you a STORE / T.O.?</a>",
           "media": {
             "image": {
-              "class": "mbr-figure__img",
+              "active": true,
+              "class": "mbr-figure__img hl-image",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/phone-1400x1691-61.png",
+              "src": "@PROJECT_PATH@/assets/images/phone-1400x1691-91.png",
               "link": "",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false,
-              "active": true
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
@@ -140,12 +143,9 @@
               "loop": false
             }
           },
-          "title": "PLAY, YOUR WAY",
-          "text": "<p>Find tournaments and events, register directly from your phone. Create, share, and submit your decklists. Get pairings and standings alerts.&nbsp;</p><br><br><ul><li><i class=\"icon-check2 mbr-primary-color\"></i>Built by players, for players.</li><li><i class=\"icon-check2 mbr-primary-color\"></i>Free to use, forever.</li></ul>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#form4-19\">Get the Beta<br></a> <a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-success\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#msg-box18-v\">ARE YOU A STORE or T.O.?<br></a>",
           "_styles": {
             "H3": {
-              "font-size": "48px"
+              "font-size": "46px"
             }
           }
         },
@@ -174,9 +174,12 @@
             "showTitle": true
           },
           "title": "We believe in Magic",
-          "text": "We fundamentally believe that players love to play, together, and we want to do everything we can to make sure that Magic players can enjoy the game the way they want it to play. We're doing this by building a community where even the smallest formats can be enjoyed across the world, and by creating an easy way for players to find events, and each other - bridging the gap between stores and the larger community. Our app is changing the way you play, your way.",
+          "text": "<span style=\"letter-spacing: 0.5px; background-color: inherit;\">We fundamentally believe that players love to play, together, and we want to do everything we can to make sure that Magic enthusiasts can enjoy the game - their way. &nbsp;We're building a community where even the smallest formats can be enjoyed, across the world. &nbsp;By creating an easy way for players to find events, and each other - bridging the gap between stores and the larger community - our app is bringing more players together to play, your way.</span><br>",
           "_styles": {
             "H4": {
+              "text-align": "center"
+            },
+            "SPAN": {
               "text-align": "center"
             }
           }
@@ -272,7 +275,7 @@
           "text2": "Sign up &amp; pay for events directly from your phone. <span style=\"letter-spacing: 0.5px;\"><br></span><br><span style=\"letter-spacing: 0.5px;\">Keep track of and get alerts for&nbsp;</span><span style=\"letter-spacing: 0.5px;\"> events you've saved - add them directly to your mobile calendar.</span><br>",
           "button2": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-primary\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
           "title3": "Decklist submission",
-          "text3": "Submit your deck direcly to the event. <br><br>Update your list as many times as you like,up until the players meeting begins.<br>",
+          "text3": "Submit your deck direcly to the event. <br><br>Update your list as many times as you like, up until the players meeting begins.<br>",
           "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-primary\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
           "title4": "<b>Visual editor</b>",
           "text4": "Say goodbye to Notepad - o<span style=\"letter-spacing: 0.5px;\">ur visual deck editor lets you quickly build, import, and edit decks on the go.</span><br><br>Share instantly with your friends and social networks.",
@@ -392,7 +395,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#151515"
           },
-          "text": "All original content on this page is © 2012-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2017 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
+          "text": "All original content on this page is © 2016-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2017 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
         },
         {
           "alias": "unicore/components",
@@ -444,6 +447,41 @@
           "text4": "Busy on game-day? Spend less time at the cash register and more time running your business. Players can pay on-site - we'll make sure all the paperwork is handled.",
           "title5": "BUILT IN ANALYTICS",
           "text5": "Not sure what your players like to do most? We'll keep track of your best performing events, days of the week, leagues, and more. Just encourage players to use our app, and we'll give you news ideas and new ways to keep them engaged."
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box11",
+          "_anchor": "msg-box11-1i",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "The tools to succeed",
+          "text": "We give you the tools to succeed and encourage players to show up. All you have to do is open the castle gate - invite them in.",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "alias": "unicore/components",
@@ -609,7 +647,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://topdecked.me\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TopDecked MTG</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header14-5\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#top\">Get the Beta</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#form4-19\">Get the Beta</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -703,7 +741,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://topdecked.me\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TopDecked MTG</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header14-5\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#top\">Get the Beta</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#form4-19\">Get the Beta</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -715,7 +753,7 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/15.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/110.jpg",
             "bgImageRadio": true,
             "overlay": true,
             "overlayOpacity": 0.75,
@@ -855,7 +893,7 @@
             "overlayOpacity": 0.5,
             "overlayColor": "#151515"
           },
-          "text": "All original content on this page is © 2012-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2016 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
+          "text": "All original content on this page is © 2016-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2017 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
         }
       ]
     }
