@@ -148,7 +148,7 @@
               "font-size": "46px"
             }
           },
-          "_customCSS": ".btn-primary {\n    margin-bottom: 20px;\n}"
+          "_customCSS": ".btn {\n    margin-bottom: 15px;\n}"
         },
         {
           "alias": "unicore/components",
@@ -756,7 +756,7 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/119.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/120.jpg",
             "bgImageRadio": true,
             "overlay": true,
             "overlayOpacity": 0.75,
