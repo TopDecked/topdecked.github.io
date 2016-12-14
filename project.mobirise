@@ -336,7 +336,8 @@
             "P": {
               "color": "#ffffff"
             }
-          }
+          },
+          "_customCSS": "input {\n    color: #fff;\n}"
         },
         {
           "alias": "unicore/components",
@@ -753,7 +754,7 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/113.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/115.jpg",
             "bgImageRadio": true,
             "overlay": true,
             "overlayOpacity": 0.75,
