@@ -279,7 +279,8 @@
           "button3": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-primary\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
           "title4": "<b>Visual editor</b>",
           "text4": "Say goodbye to Notepad - o<span style=\"letter-spacing: 0.5px;\">ur visual deck editor lets you quickly build, import, and edit decks on the go.</span><br><br>Share instantly with your friends and social networks.",
-          "button4": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-primary\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>"
+          "button4": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-primary\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
+          "_customCSS": ".flips1 {\n    margin-bottom: 20px;\n}"
         },
         {
           "alias": "unicore/components",
@@ -754,7 +755,7 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/115.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/118.jpg",
             "bgImageRadio": true,
             "overlay": true,
             "overlayOpacity": 0.75,
