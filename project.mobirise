@@ -29,7 +29,7 @@
         "main": true,
         "title": "Get TopDecked",
         "meta_descr": "An app for MTG events search, registration, pairings, and decklist building. Play Magic, your way.",
-        "header_custom": "<meta property=\"og:image\" content=\"http://beta.topdecked.me/assets/images/background-2000x1500-60.jpg\" />",
+        "header_custom": "<meta property=\"og:image\" content=\"http://beta.topdecked.me/assets/images/phone-1400x1691-91.png\" />",
         "footer_custom": "",
         "html_before": ""
       },
@@ -106,7 +106,7 @@
             "paddingBottom": "0",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/background-2000x1500-14.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/background-2000x1486-20.jpg",
             "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
@@ -753,7 +753,7 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/111.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/113.jpg",
             "bgImageRadio": true,
             "overlay": true,
             "overlayOpacity": 0.75,
