@@ -209,6 +209,26 @@ p {
 #form4-19 input {
   color: #fff;
 }
+#form4-19 select {
+  color: #bbb;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+@media only screen and (max-width: 767px) and (min-width: 280px) {
+  #form4-19 select {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
 #msg-box18-v H3 {
   font-size: 46px;
 }
