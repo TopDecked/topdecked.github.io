@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TopDecked.ME",
-    "currentPage": "index.html",
+    "currentPage": "stores.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -17,7 +17,7 @@
       }
     },
     "versionFirst": "3.10.1",
-    "uniqCompNum": 56,
+    "uniqCompNum": 73,
     "versionPublish": "3.10.4",
     "favicon": "@PROJECT_PATH@/assets/images/topdecked-icon-ios-128x128-31.png",
     "noImageResize": "",
@@ -92,7 +92,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://topdecked.me\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TopDecked MTG</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#form4-19\">Get the Beta</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"stores.html\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"#getbeta\">Get the Beta</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -129,7 +129,7 @@
           },
           "title": "PLAY, YOUR WAY",
           "text": "Find tournaments and events, register directly from your phone. Create, share, and submit your decklists. Get pairings and standings alerts.<br><br>&nbsp;- Built by players, for players.<br>&nbsp;- Free to use, forever.<br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#form4-19\">Get the Beta</a> <a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-success\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#msg-box18-v\">Are you a STORE / T.O.?</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#form4-19\">Get the Beta</a> <a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-success\" data-toolbar=\"-mbrBtnMove\" href=\"stores.html\">Are you a STORE / T.O.?</a>",
           "media": {
             "image": {
               "active": true,
@@ -332,7 +332,7 @@
             }
           },
           "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-block btn-success\" type=\"submit\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Get the Beta</a>",
-          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" style=\"background-color: rgb(0, 0, 0);\">\n    <div class=\"elements-content subscribe-elt subscribe-elt2\" style=\"padding-top: 150px; padding-bottom: 160px;\">\n        \n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <h5 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"85\">Sign up for the beta - for players</h5>\n                    <p class=\"mbr-editable-content\" code-editable-id=\"86\">Invites are sent as space in the program becomes available for new players - It's free. <br>If you are a store or tournament organizer. Keep reading.</p>\n\n                    \n                    <form class=\"intro-newsletter\" action=\"/submit.php\" method=\"post\">\n                    \n                        <div class=\"row\">\n                            <div class=\"col-md-3\">\n                                <input type=\"name\" name=\"name\" required=\"\" placeholder=\"Full Name\">\n                            </div>\n                            <div class=\"col-md-3\">\n                                <select type=\"platform\" name=\"platform\" required=\"true\">\n                                    <option selected=\"true\" value=\"\">&nbsp;&nbsp;Select platform</option>\n                                    <option value=\"android\">Android</option>\n                                    <option value=\"ios\">iOS</option>\n                                </select>\n                            </div>\n                            <div class=\"col-md-3\">\n                                <input type=\"email\" name=\"email\" required=\"\" placeholder=\"Your email address\">\n                            </div>\n                            <div class=\"col-md-3\">\n                                <div class=\"mbr-form__right mbr-buttons mbr-buttons--no-offset mbr-buttons--right\"><button class=\"btn mbr-title-font btn-block btn-success mbr-editable-button\" type=\"submit\" code-editable-id=\"87\">Get the Beta</button></div>\n                            </div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" style=\"background-color: rgb(0, 0, 0);\">\n    <a name=\"getbeta\"></a>\n    <div class=\"elements-content subscribe-elt subscribe-elt2\" style=\"padding-top: 80px; padding-bottom: 90px;\">\n        \n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <h5 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"157\">Sign up for the beta - for players</h5>\n                    <p class=\"mbr-editable-content\" code-editable-id=\"158\">Invites are sent as space in the program becomes available for new players - It's free. <br>If you are a store or tournament organizer. Keep reading.</p>\n\n                    \n                    <form class=\"intro-newsletter\" action=\"/submit.php\" method=\"post\">\n                    \n                        <div class=\"row\">\n                            <div class=\"col-md-3\">\n                                <input type=\"name\" name=\"name\" required=\"\" placeholder=\"Full Name\">\n                            </div>\n                            <div class=\"col-md-3\">\n                                <select type=\"platform\" name=\"platform\" required=\"true\">\n                                    <option selected=\"true\" value=\"\">&nbsp;&nbsp;Select platform</option>\n                                    <option value=\"android\">Android</option>\n                                    <option value=\"ios\">iOS</option>\n                                </select>\n                            </div>\n                            <div class=\"col-md-3\">\n                                <input type=\"email\" name=\"email\" required=\"\" placeholder=\"Your email address\">\n                            </div>\n                            <div class=\"col-md-3\">\n                                <div class=\"mbr-form__right mbr-buttons mbr-buttons--no-offset mbr-buttons--right\"><button class=\"btn mbr-title-font btn-block btn-success mbr-editable-button\" type=\"submit\" code-editable-id=\"159\">Get the Beta</button></div>\n                            </div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customTemplate": true
@@ -342,23 +342,15 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box18",
-          "_styles": {
-            "H3": {
-              "font-size": "46px"
-            },
-            "P": {
-              "font-size": "20px"
-            }
-          },
-          "_anchor": "msg-box18-v",
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-1x",
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": 2,
             "paddingBottom": 2,
             "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "bgColor": "#3e6990",
+            "bgColor": "#222",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -366,10 +358,19 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": 0.5,
-            "overlayColor": "#151515"
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
           },
           "title": "ARE YOU A STORE OR EVENT ORGANIZER?",
-          "text": "We have something \"in store\" for you, too.  Easily and cost-effectively promote your events - build happy, healthy, growing community of players."
+          "text": "We have something \"in store\" for you, too. Easily and cost-effectively promote your events - build happy, healthy, growing community of players.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PLEARN MORE</a>",
+          "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" style=\"background-color: rgb(34, 34, 34);\">\n    <div class=\"cta-wrap bg-dark\" style=\"padding-top: 40px; padding-bottom: 25px;\">\n        \n        <div class=\"container\">\n            <div class=\"col-md-9\">\n                <h2 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"145\">ARE YOU A STORE OR EVENT ORGANIZER?</h2>\n                <p class=\"mbr-editable-content\" code-editable-id=\"146\">We have something \"in store\" for you, too. Easily and cost-effectively promote your events - build happy, healthy, growing community of players.</p>\n            </div>\n            <div class=\"col-md-3\">\n                <div><a class=\"btn mbr-title-font cta-btn btn-default mbr-editable-button\" href=\"/stores.html\" code-editable-id=\"147\">LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         },
         {
           "alias": "unicore/components",
@@ -395,159 +396,6 @@
             "overlayColor": "#151515"
           },
           "text": "All original content on this page is © 2016-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2017 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
-        },
-        {
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content7",
-          "_styles": {
-            "SPAN": {
-              "color": "#ffffff"
-            },
-            "H4": {
-              "color": "#ffffff"
-            },
-            "P": {
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "content7-s",
-          "_params": {
-            "blocks": "5",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0.8",
-            "overlayColor": "#151515",
-            "icon1": "fa-calendar-plus-o",
-            "icon2": "fa-users",
-            "icon3": "fa-gears",
-            "icon4": "fa-clock-o",
-            "icon5": "fa-bar-chart"
-          },
-          "title1": "PROMOTE YOUR EVENTS, automatically",
-          "text1": "Tired of spending hours on Facebook? Just schedule events like normal, and we will import them into our system for you. Players in your area will be notified of a new event that meets their interests. <br><br>Any additional information you choose to post to Facebook is automatically included in your event listings, and if there's something you want to change, we give you total control of the details.",
-          "title2": "GET MORE PLAYERS",
-          "text2": "<span style=\"letter-spacing: 0.5px; background-color: inherit;\">Pre-registration and careful promotion has been shown to increase event turnout. Add your payment information details and turn on pre-registration - we'll take care of getting the players to your store.</span><span style=\"letter-spacing: 0.5px; background-color: inherit;\"><br></span><br><span style=\"letter-spacing: 0.5px; background-color: inherit;\">We'll also help you understand your players' behaviors, so you can create events and promotions that keep them coming back.</span><br>",
-          "title3": "Smart SCHEDULING",
-          "text3": "Not sure of the best day or time to hold your event? Don't wonder any longer. Our built-in schedule helper will suggest dates for highest player turnout and lowest nearby competition. Never lose out to another big regional tournament again.",
-          "title4": "SPEND MORE TIME RUNNING YOUR STORE",
-          "text4": "Busy on game-day? Spend less time at the cash register and more time running your business. Players can pay on-site - we'll make sure all the paperwork is handled.",
-          "title5": "BUILT IN ANALYTICS",
-          "text5": "Not sure what your players like to do most? We'll keep track of your best performing events, days of the week, leagues, and more. Just encourage players to use our app, and we'll give you news ideas and new ways to keep them engaged."
-        },
-        {
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box11",
-          "_styles": {
-            "H4": {
-              "text-align": "center"
-            },
-            "P": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "msg-box11-1i",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "parallax": false,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#151515",
-            "showTitle": true
-          },
-          "title": "The tools to succeed",
-          "text": "We give you the tools to succeed and encourage players to show up. All you have to do is open the castle gate - invite them in."
-        },
-        {
-          "alias": "unicore/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header2",
-          "_styles": {
-            "H4": {
-              "text-align": "center"
-            }
-          },
-          "_anchor": "header2-r",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/7.jpg",
-            "bgColor": "#4c6972",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.2,
-            "overlayColor": "#000",
-            "showForm": true,
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false
-          },
-          "title": "Sign up for early access.",
-          "form": {
-            "title": "MESSAGE",
-            "action": "/submit.php",
-            "alerts": {
-              "success": "Thanks for requesting early access. One of our team will reach out to you shortly."
-            },
-            "fields": {
-              "name": {
-                "title": "First Name",
-                "visible": true,
-                "customTitle": "Store / Business Name"
-              },
-              "lastName": {
-                "title": "Last Name",
-                "visible": true,
-                "customTitle": "Store / Business Address"
-              },
-              "email": {
-                "title": "Email Address",
-                "visible": true,
-                "customTitle": "Contact Email Address"
-              },
-              "phone": {
-                "title": "Phone No.",
-                "visible": true,
-                "customTitle": "Contact Phone No."
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">GET EARLY ACCESS</a>",
-          "title1": "READY TO EXPAND YOUR REACH?",
-          "text": "Sign up for our early access program - let us help you make larger events and keep the players coming back.",
-          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"index.html#content7-s\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
           "alias": "unicore/components",
@@ -646,7 +494,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://topdecked.me\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TopDecked MTG</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#form4-19\">Get the Beta</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"stores.html\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"#getbeta\">Get the Beta</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -740,7 +588,7 @@
             }
           },
           "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://topdecked.me\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TopDecked MTG</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box18-v\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"index.html#form4-19\">Get the Beta</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"stores.html\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"#getbeta\">Get the Beta</a></li>"
         },
         {
           "alias": "unicore/components",
@@ -752,7 +600,7 @@
           "_params": {
             "paddingTop": 2,
             "paddingBottom": 2,
-            "bgImage": "@PROJECT_PATH@/assets/images/16.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1447015237013-0e80b2786ddc-2000x1333-56.jpg",
             "bgImageRadio": true,
             "overlay": true,
             "overlayOpacity": 0.75,
@@ -893,6 +741,381 @@
             "overlayColor": "#151515"
           },
           "text": "All original content on this page is © 2016-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2017 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
+        }
+      ]
+    },
+    "stores.html": {
+      "settings": {
+        "title": "Get TopDecked - For Stores / T.O.s",
+        "meta_descr": "An app for MTG events search, registration, pairings, and decklist building. Play Magic, your way.",
+        "header_custom": "<meta property=\"og:image\" content=\"http://beta.topdecked.me/assets/images/phone-1400x1691-91.png\" />",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {
+              "font-family": "'Oxygen', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+            },
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "font-family": "'Oxygen', sans-serif"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#333333"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#292929"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-1k",
+          "_params": {
+            "bgColor": "#333333",
+            "fontSize": 1,
+            "fontName": {
+              "name": "Oxygen",
+              "url": "https://fonts.googleapis.com/css?family=Oxygen:400,300,700",
+              "css": "'Oxygen', sans-serif"
+            },
+            "fontColor": "#ffffff",
+            "transparent": true,
+            "sticky": true,
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/android-topdecked-hi-res-icon-128x128-97.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-white\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"http://topdecked.me\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">TopDecked MTG</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features5-g\">PLAYERS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"stores.html\">STORES</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"#getbeta\">Get the Beta</a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box18",
+          "_styles": {
+            "H3": {
+              "font-size": "46px"
+            },
+            "P": {
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "msg-box18-1q",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1469488865564-c2de10f69f96-2000x1334-13.jpg",
+            "bgColor": "#151b21",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "title": "ARE YOU A STORE OR EVENT ORGANIZER?",
+          "text": "We have something \"in store\" for you, too.  Easily and cost-effectively promote your events - build happy, healthy, growing community of players."
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1r",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgColor": "#111",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "All original content on this page is © 2016-2017 TOPDECKED, LLC. and may not be used or reproduced without consent. Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast LLC. © 1995-2017 Wizards. All rights reserved. TOPDECKED, LLC. is not affiliated with Wizards of the Coast LLC."
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box11",
+          "_anchor": "msg-box11-1w",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "WE BELIEVE IN MAGIC",
+          "text": "<p><span style=\"letter-spacing: 0.5px; background-color: inherit;\">By using the best of mobile technology, social media, and behavioral research, we're working to bring players into your store, help keep you connected with them, and build a healthier community --- one where you spend less time on Facebook, and more time on business.</span><br></p>",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_styles": {
+            "SPAN": {
+              "color": "#ffffff"
+            },
+            "H4": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "content7-1s",
+          "_params": {
+            "blocks": "5",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#151515",
+            "icon1": "fa-calendar-plus-o",
+            "icon2": "fa-users",
+            "icon3": "fa-gears",
+            "icon4": "fa-clock-o",
+            "icon5": "fa-bar-chart"
+          },
+          "title1": "PROMOTE YOUR EVENTS, automatically",
+          "text1": "Tired of spending hours on Facebook? Just schedule events like normal, and we will import them into our system for you. Players in your area will be notified of a new event that meets their interests. <br><br>Any additional information you choose to post to Facebook is automatically included in your event listings, and if there's something you want to change, we give you total control of the details.",
+          "title2": "GET MORE PLAYERS",
+          "text2": "<span style=\"letter-spacing: 0.5px; background-color: inherit;\">Pre-registration and careful promotion has been shown to increase event turnout. Add your payment information details and turn on pre-registration - we'll take care of getting the players to your store.</span><span style=\"letter-spacing: 0.5px; background-color: inherit;\"><br></span><br><span style=\"letter-spacing: 0.5px; background-color: inherit;\">We'll also help you understand your players' behaviors, so you can create events and promotions that keep them coming back.</span><br>",
+          "title3": "Smart SCHEDULING",
+          "text3": "Not sure of the best day or time to hold your event? Don't wonder any longer. Our built-in schedule helper will suggest dates for highest player turnout and lowest nearby competition. Never lose out to another big regional tournament again.",
+          "title4": "SPEND MORE TIME RUNNING YOUR STORE",
+          "text4": "Busy on game-day? Spend less time at the cash register and more time running your business. Players can pay on-site - we'll make sure all the paperwork is handled.",
+          "title5": "BUILT IN ANALYTICS",
+          "text5": "Not sure what your players like to do most? We'll keep track of your best performing events, days of the week, leagues, and more. Just encourage players to use our app, and we'll give you news ideas and new ways to keep them engaged."
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box11",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "msg-box11-1t",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "The tools to succeed",
+          "text": "We give you the tools to succeed and encourage players to show up. All you have to do is open the castle gate - invite them in."
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<a name=\"getbeta\"></a>",
+          "_customCSS": "",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-1z",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            }
+          },
+          "_anchor": "header2-1u",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/7.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#000",
+            "showForm": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Sign up for early access.",
+          "form": {
+            "title": "MESSAGE",
+            "action": "/submit.php",
+            "alerts": {
+              "success": "Thanks for requesting early access. One of our team will reach out to you shortly."
+            },
+            "fields": {
+              "name": {
+                "title": "First Name",
+                "visible": true,
+                "customTitle": "Store / Business Name"
+              },
+              "lastName": {
+                "title": "Last Name",
+                "visible": true,
+                "customTitle": "Store / Business Address"
+              },
+              "email": {
+                "title": "Email Address",
+                "visible": true,
+                "customTitle": "Contact Email Address"
+              },
+              "phone": {
+                "title": "Phone No.",
+                "visible": true,
+                "customTitle": "Contact Phone No."
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">GET EARLY ACCESS</a>",
+          "title1": "READY TO EXPAND YOUR REACH?",
+          "text": "Sign up for our early access program - let us help you make larger events and keep the players coming back.",
+          "buttons1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" href=\"index.html#content7-s\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-header__text": {
+              "text-align": "right"
+            }
+          },
+          "_anchor": "social-buttons1-1v",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "@primaryColor",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": true,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<a name=\"getbeta\"></a>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-20"
         }
       ]
     }

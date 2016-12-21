@@ -229,30 +229,6 @@ p {
     margin-bottom: 15px;
   }
 }
-#msg-box18-v H3 {
-  font-size: 46px;
-}
-#msg-box18-v P {
-  font-size: 20px;
-}
-#content7-s SPAN {
-  color: #ffffff;
-}
-#content7-s H4 {
-  color: #ffffff;
-}
-#content7-s P {
-  color: #ffffff;
-}
-#msg-box11-1i H4 {
-  text-align: center;
-}
-#msg-box11-1i P {
-  text-align: center;
-}
-#header2-r H4 {
-  text-align: center;
-}
 #social-buttons1-y .mbr-header__text {
   text-align: right;
 }
@@ -313,4 +289,69 @@ p {
 }
 #progressBar-15 H5 {
   color: #000000;
+}
+
+
+#dropdown-menu-1k .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-1k .navbar-brand a {
+  font-family: 'Oxygen', sans-serif;
+}
+#dropdown-menu-1k .nav .link,
+#dropdown-menu-1k .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: 'Oxygen', sans-serif;
+}
+#dropdown-menu-1k .navbar,
+#dropdown-menu-1k .dropdown-menu {
+  background: #333333;
+}
+#dropdown-menu-1k .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-1k .dropdown-menu a:hover,
+#dropdown-menu-1k .dropdown-menu a:focus {
+  background: #292929;
+}
+#dropdown-menu-1k .navbar-toggler {
+  color: #ffffff;
+}
+#msg-box18-1q H3 {
+  font-size: 46px;
+}
+#msg-box18-1q P {
+  font-size: 20px;
+}
+#msg-box11-1w H4 {
+  text-align: center;
+}
+#msg-box11-1w P {
+  text-align: center;
+}
+#content7-1s SPAN {
+  color: #ffffff;
+}
+#content7-1s H4 {
+  color: #ffffff;
+}
+#content7-1s P {
+  color: #ffffff;
+}
+#msg-box11-1t H4 {
+  text-align: center;
+}
+#msg-box11-1t P {
+  text-align: center;
+}
+#header2-1u H4 {
+  text-align: center;
+}
+#social-buttons1-1v .mbr-header__text {
+  text-align: right;
+}
+#custom-html-20 {
+  /* Type valid CSS here */
+}
+#custom-html-20 .my-image {
+  width: 100%;
 }
