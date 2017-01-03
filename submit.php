@@ -1,6 +1,6 @@
 <?php
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, "http://104.236.60.235:8080/forms/");
+curl_setopt($ch, CURLOPT_URL, "http://api.topdecked.me:8080/forms/");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_PORT, 8080);
 curl_setopt($ch, CURLOPT_TIMEOUT, 200);
