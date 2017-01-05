@@ -290,24 +290,23 @@
           ],
           "_name": "form4",
           "_customCSS": "H5 {\n\tcolor: #ffffff;\n}\n\nP {\n\tcolor: #ffffff;\n}\n\ninput {\n    color: #fff;\n}\n\nselect {\n    color: #bbb;\n    height: 50px;\n    padding: 0 20px;\n    font-size: 14px;\n    letter-spacing: 0px;\n    font-weight: 400;\n    width: 100%;\n    background: transparent;\n    border: 1px solid #e5e5e5;\n    border-radius: 3px;\n    text-transform: uppercase;\n    font-weight: 700;\n}\n\n@media only screen and (max-width: 767px) and (min-width: 280px)\n{\n    select {\n        width: 100%;\n        margin-bottom: 15px;\n    }\n}",
-          "_anchor": "form4-19",
           "_params": {
+            "showTitle": true,
+            "showText": true,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "bgColor": "#000000",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "showTitle": true,
-            "showText": true
+            "overlayOpacity": 0.5
           },
           "title": "Sign up for the beta - for players",
           "text": "Invites are sent as space in the program becomes available for new players - It's free. <br>If you are a store or tournament organizer. Keep reading.",
@@ -335,7 +334,8 @@
           "_customHTML": "<section class=\"mbr-section--bg-adapted mbr-section--relative\" style=\"background-color: rgb(0, 0, 0);\">\n    <a name=\"getbeta\"></a>\n    <div class=\"elements-content subscribe-elt subscribe-elt2\" style=\"padding-top: 80px; padding-bottom: 90px;\">\n        \n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-md-12\">\n                    <h5 class=\"mbr-title-font mbr-editable-content\" code-editable-id=\"157\">Sign up for the beta - for players</h5>\n                    <p class=\"mbr-editable-content\" code-editable-id=\"158\">Invites are sent as space in the program becomes available for new players - It's free. <br>If you are a store or tournament organizer. Keep reading.</p>\n\n                    \n                    <form class=\"intro-newsletter\" action=\"/submit.php\" method=\"post\">\n                    \n                        <div class=\"row\">\n                            <div class=\"col-md-3\">\n                                <input type=\"name\" name=\"name\" required=\"\" placeholder=\"Full Name\">\n                            </div>\n                            <div class=\"col-md-3\">\n                                <select type=\"platform\" name=\"platform\" required=\"true\">\n                                    <option selected=\"true\" value=\"\">&nbsp;&nbsp;Select platform</option>\n                                    <option value=\"android\">Android</option>\n                                    <option value=\"ios\">iOS</option>\n                                </select>\n                            </div>\n                            <div class=\"col-md-3\">\n                                <input type=\"email\" name=\"email\" required=\"\" placeholder=\"Your email address\">\n                            </div>\n                            <div class=\"col-md-3\">\n                                <div class=\"mbr-form__right mbr-buttons mbr-buttons--no-offset mbr-buttons--right\"><button class=\"btn mbr-title-font btn-block btn-success mbr-editable-button\" type=\"submit\" code-editable-id=\"159\">Get the Beta</button></div>\n                            </div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_anchor": "form4-19"
         },
         {
           "alias": "unicore/components",
@@ -343,25 +343,24 @@
             "Theme"
           ],
           "_name": "msg-box1",
-          "_anchor": "msg-box1-1x",
           "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
             "paddingTop": 2,
             "paddingBottom": 2,
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/1.jpg",
-            "bgColor": "#222",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#222",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
             "overlayColor": "#151515",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "title": "ARE YOU A STORE OR EVENT ORGANIZER?",
           "text": "We have something \"in store\" for you, too. Easily and cost-effectively promote your events - build happy, healthy, growing community of players.",
@@ -370,7 +369,8 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_customCSS": "",
-          "_customTemplate": true
+          "_customTemplate": true,
+          "_anchor": "msg-box1-1x"
         },
         {
           "alias": "unicore/components",
@@ -475,7 +475,7 @@
               "css": "'Oxygen', sans-serif"
             },
             "fontColor": "#ffffff",
-            "transparent": false,
+            "transparent": true,
             "sticky": true,
             "logo": false,
             "showBrand": true,
@@ -878,6 +878,14 @@
             "Theme"
           ],
           "_name": "msg-box11",
+          "_styles": {
+            "H4": {
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
           "_anchor": "msg-box11-1w",
           "_params": {
             "paddingTop": "1",
@@ -897,15 +905,7 @@
             "showTitle": true
           },
           "title": "WE BELIEVE IN MAGIC",
-          "text": "<p><span style=\"letter-spacing: 0.5px; background-color: inherit;\">By using the best of mobile technology, social media, and behavioral research, we're working to bring players into your store, help keep you connected with them, and build a healthier community --- one where you spend less time on Facebook, and more time on business.</span><br></p>",
-          "_styles": {
-            "H4": {
-              "text-align": "center"
-            },
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "text": "<p><span style=\"letter-spacing: 0.5px; background-color: inherit;\">By using the best of mobile technology, social media, and behavioral research, we're working to bring players into your store, help keep you connected with them, and build a healthier community --- one where you spend less time on Facebook, and more time on business.</span><br></p>"
         },
         {
           "alias": "unicore/components",
@@ -950,13 +950,13 @@
           "title1": "PROMOTE YOUR EVENTS, automatically",
           "text1": "Tired of spending hours on Facebook? Just schedule events like normal, and we will import them into our system for you. Players in your area will be notified of a new event that meets their interests. <br><br>Any additional information you choose to post to Facebook is automatically included in your event listings, and if there's something you want to change, we give you total control of the details.",
           "title2": "GET MORE PLAYERS",
-          "text2": "<span style=\"letter-spacing: 0.5px; background-color: inherit;\">Pre-registration and careful promotion has been shown to increase event turnout. Add your payment information details and turn on pre-registration - we'll take care of getting the players to your store.</span><span style=\"letter-spacing: 0.5px; background-color: inherit;\"><br></span><br><span style=\"letter-spacing: 0.5px; background-color: inherit;\">We'll also help you understand your players' behaviors, so you can create events and promotions that keep them coming back.</span><br>",
+          "text2": "<span style=\"letter-spacing: 0.5px; background-color: inherit;\">Pre-registration and careful promotion has been shown to increase event turnout. Add your payment information details and turn on pre-registration - we'll take care of getting the players to your store, and o</span><span style=\"letter-spacing: 0.5px; background-color: inherit;\">ur automated loyalty programs keep them coming back.</span><br>",
           "title3": "Smart SCHEDULING",
           "text3": "Not sure of the best day or time to hold your event? Don't wonder any longer. Our built-in schedule helper will suggest dates for highest player turnout and lowest nearby competition. Never lose out to another big regional tournament again.",
           "title4": "SPEND MORE TIME RUNNING YOUR STORE",
           "text4": "Busy on game-day? Spend less time at the cash register and more time running your business. Players can pay on-site - we'll make sure all the paperwork is handled.",
           "title5": "BUILT IN ANALYTICS",
-          "text5": "Not sure what your players like to do most? We'll keep track of your best performing events, days of the week, leagues, and more. Just encourage players to use our app, and we'll give you news ideas and new ways to keep them engaged."
+          "text5": "Not sure what your players like to do most? We'll keep track of your best performing events, days of the week, leagues, and more. Just encourage players to use our app, and we'll give you news ideas and new ways to keep them engaged.<br><br>We'll also help you understand your players' behaviors, so you can create events and promotions that draw bigger crowds.<br>"
         },
         {
           "alias": "unicore/components",
@@ -1003,9 +1003,9 @@
             "Extension"
           ],
           "_name": "pro.custom-html",
-          "_anchor": "custom-html-1z",
           "_PHPplaceholders": [],
-          "_JSplaceholders": []
+          "_JSplaceholders": [],
+          "_anchor": "custom-html-1z"
         },
         {
           "alias": "unicore/components",
