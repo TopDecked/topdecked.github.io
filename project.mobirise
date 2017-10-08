@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TopDecked MTG",
-    "currentPage": "players",
+    "currentPage": "about",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -48,7 +48,7 @@
     "players": {
       "settings": {
         "meta_descr": "Get TopDecked - The fastest growing app for Magic: The Gathering players.",
-        "title": "Players",
+        "title": "TopDecked for Magic Players - Deck-building, Collection Management, Find Local Events, and more.",
         "order": 1
       },
       "components": [
@@ -941,7 +941,7 @@
     "stores": {
       "settings": {
         "main": true,
-        "title": "Stores",
+        "title": "TopDecked for Store & TOs - Grow your community, streamline your events",
         "meta_descr": "Get TopDecked - Cut lines, grow your business, keep players coming back for more.",
         "header_custom": "",
         "footer_custom": "",
@@ -2088,7 +2088,7 @@
     "about": {
       "settings": {
         "meta_descr": "The Magic behind TopDecked is real. We want to share it with you. Learn about our team, and our community.",
-        "title": "About us",
+        "title": "About Us - The Magic of TopDecked",
         "order": 2
       },
       "components": [
