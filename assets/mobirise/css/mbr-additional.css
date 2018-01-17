@@ -1790,7 +1790,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: #000;
+  background-color: #fff;
 }
 .cid-qvB4XTvIam .card-front img {
   height: 100%;
@@ -1812,7 +1812,7 @@ body {
   transform: rotateY(-180deg);
 }
 .cid-qvB4XTvIam .card {
-  min-height: 300px;
+  min-height: 400px;
 }
 .cid-qvB4XTvIam .card:hover .card-front {
   z-index: 1;
@@ -1842,7 +1842,7 @@ body {
 }
 .cid-qvBciPrOjN {
   padding-top: 0px;
-  padding-bottom: 90px;
+  padding-bottom: 45px;
   background-color: #ffffff;
 }
 .cid-qvBciPrOjN .mbr-section-subtitle {
@@ -1878,10 +1878,11 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-color: #000;
+  background-color: #FFF;
 }
 .cid-qvBciPrOjN .card-front img {
-  height: 100%;
+  width: 100%;
+  transform: translateY(-10%);
 }
 .cid-qvBciPrOjN .card_back {
   width: 100%;
@@ -1900,7 +1901,7 @@ body {
   transform: rotateX(-180deg);
 }
 .cid-qvBciPrOjN .card {
-  min-height: 300px;
+  min-height: 560px;
 }
 .cid-qvBciPrOjN .card:hover .card-front {
   z-index: 1;
